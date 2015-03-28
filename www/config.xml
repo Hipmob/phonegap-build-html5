@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<widget xmlns = "http://www.w3.org/ns/widgets"
+    xmlns:gap = "http://phonegap.com/ns/1.0"
+    xmlns:android = "http://schema.android.com/apk/res/android" 
+    id        = "com.hipmob.phonegap.sample.simple.html5"
+    version   = "1.0.0">
+  <gap:plugin name="org.apache.cordova.device" />
+  
+  <access origin="*" />
+  
+  <name>Hipmob PhoneGap Build HTML5 Sample</name>
+  
+  <description>
+    Simple sample app showing use of Hipmob's HTML5 widget in PhoneGap Build.
+  </description>
+  
+  <author href="http://www.hipmob.com" email="team@hipmob.com">
+    Orthogonal Labs, Inc.
+  </author>
+  <preference name="phonegap-version" value="3.7.0" />
+</widget>
